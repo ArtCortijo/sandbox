@@ -1,0 +1,6 @@
+section {
+  padding: 50px 0;
+  @include media-below(sm) {
+    padding: 25px 0;
+  }
+}

@@ -1,0 +1,112 @@
+// @include media-above(xlg) {
+//   display: none;
+// }
+// @include media-below(md) {
+//   display: block;
+// }
+
+body {
+  font-family: $font-base;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-headings;
+  text-transform: uppercase;
+  hyphens: auto;
+}
+
+h1 {
+  // font-size: 3.5rem;
+  // @include media-below(sm) {
+  //   font-size: 3rem;
+  // }
+}
+
+h2 {
+  // font-size: 2.3rem;
+  // @include media-below(sm) {
+  //   font-size: 2rem;
+  // }
+}
+
+h3 {
+  // font-size: 1.4rem;
+}
+
+h4 {
+  // font-size: 1.2rem;
+}
+
+p {
+  // line-height: 1.4;
+}
+
+dt {
+  font-weight: initial;
+}
+
+ul {
+  // list-style-position: inside;
+}
+
+li {
+  ul {
+    // list-style-type: circle;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: '';
+  }
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ' ';
+    clear: both;
+    height: 0;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.visually-hidden a:focus,
+.visually-hidden input:focus,
+.visually-hidden button:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  clip: auto;
+  overflow: visible;
+}

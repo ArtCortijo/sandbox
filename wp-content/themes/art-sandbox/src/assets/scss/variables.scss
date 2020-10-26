@@ -1,0 +1,42 @@
+/** Colors **/
+$white: #fff;
+$black: #000;
+$grey: #797a7d;
+
+/* Fonts */
+$font-headings: 'Montserrat', sans-serif;
+$font-base: 'Oxygen', sans-serif;
+
+/** Timing **/
+$appear-time: 1.5s;
+$appear-time-quick: 1s;
+$color-theme: 0.75s ease;
+$link-time: 0.3s ease;
+
+$bezier-out: cubic-bezier(0.25, 0.5, 0.25, 1);
+$bezier-in: cubic-bezier(0.75, 0, 0.75, 0.5);
+$bezier-in-out: cubic-bezier(0.75, 0, 0.25, 1);
+
+$breakpoints: (
+  xs: 480px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1200px,
+  xlg: 1440px,
+);
+
+// $breakpoints: (
+//   xs: 480px,
+//   sm: 768px,
+//   md: 1024px,
+//   lg: 1200px,
+// mb: 0, // Mobile
+// cb: 320, // Mobile
+// cbc: 480, // Mobile
+// bmb: 640, // Mobile
+// tb: 768, // Tablet
+// btb :992, // mid Tablet/Laptop
+// md: 1200, // custom medium
+// lt: 1440, // Laptop
+// dt: 1920, // Desktop,,,,
+// );
